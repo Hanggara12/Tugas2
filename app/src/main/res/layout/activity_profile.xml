@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shape"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/P_img_1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hallo"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/primaryColor"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="80dp"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profil2"
+        android:layout_below="@id/P_img_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/profil_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profil_1"
+        android:text="HANGGARA PUTRATAMA SUPARTA"
+        android:textColor="@color/fourColor"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/nunitobold"
+        android:textSize="18dp"
+        android:id="@+id/txt_1"
+        />
+
+    <Button
+        android:layout_width="3dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:layout_marginTop="35dp"
+        android:text="XII RPL B"
+        android:textColor="@color/thirdColor"
+        android:textSize="30dp"
+        android:layout_marginLeft="245dp"
+        android:id="@+id/txt_2"
+        android:fontFamily="@font/nunitobold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_1"
+        android:layout_marginTop="35dp"
+        android:text="18"
+        android:textColor="@color/thirdColor"
+        android:textSize="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/txt_3"
+        android:fontFamily="@font/nunitobold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_2"
+        android:layout_marginTop="10dp"
+        android:text="Kelas"
+        android:textColor="@color/primaryColor"
+        android:textSize="20dp"
+        android:layout_marginLeft="280dp"
+        android:fontFamily="@font/nunitobold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_3"
+        android:layout_marginTop="10dp"
+        android:text="Kelas"
+        android:textColor="@color/primaryColor"
+        android:textSize="20dp"
+        android:layout_marginLeft="75dp"
+        android:fontFamily="@font/nunitobold"
+        android:id="@+id/txt_4"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_4"
+        android:src="@drawable/icon"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        />
+
+
+</RelativeLayout>
